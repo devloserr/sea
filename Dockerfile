@@ -1,7 +1,7 @@
 FROM php:8.2-apache
 
-COPY . /www/var/html/
+COPY . /var/www/html/
 
-RUN a2enmood rewrite
+RUN a2enmod rewrite
 
 EXPOSE 80
