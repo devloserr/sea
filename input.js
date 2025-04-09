@@ -1,6 +1,6 @@
 let output = document.getElementById('output')
 
-let delay = 100
+let delay = 1000
 
 function update() {
   const xhr = new XMLHttpRequest()
